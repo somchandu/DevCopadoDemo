@@ -163,16 +163,6 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-        <fullName>Field1__c</fullName>
-        <externalId>false</externalId>
-        <label>Field1</label>
-        <length>100</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Field2__c</fullName>
         <externalId>false</externalId>
         <label>Field2</label>
@@ -192,10 +182,30 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Field4__c</fullName>
+        <externalId>false</externalId>
+        <label>Field4</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Field1_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>Field1_Test</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <validationRules>
         <fullName>DemoValidationRule1</fullName>
         <active>true</active>
-        <errorConditionFormula>Field1__c  = &quot;chandra&quot;</errorConditionFormula>
+        <errorConditionFormula>Field1_Test__c  = &quot;chandra&quot;</errorConditionFormula>
         <errorMessage>In Correct data</errorMessage>
     </validationRules>
 </CustomObject>
